@@ -37,16 +37,17 @@
 <h1>Privacy Policy</h1>
 <p class="dates">
   <strong>Rock Paper Scissors Lizard Spock</strong><br>
-  Effective date: 31 August 2026 &middot; Last updated: 31 August 2026
+  Effective date: 31 August 2026 &middot; Last updated: 19 October 2026
 </p>
 
 <p>This privacy policy applies to the Android application <strong>Rock Paper Scissors Lizard
 Spock</strong> (package name <code>com.rockpaperscissors.lizardspock</code>, the &ldquo;App&rdquo;),
 published by Mark Shepherd (the &ldquo;Developer&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;).</p>
 
-<p class="summary"><strong>Summary:</strong> The App does not collect, store, share, or transmit
-any personal or device data. It works entirely offline on your device and has no internet
-access.</p>
+<p class="summary"><strong>Summary:</strong> The App does not collect, share, or transmit any
+personal or device data. It works entirely offline on your device and has no internet access. To
+save retyping, it remembers the player names you use and a simple win record for each, stored
+only on your device and deletable at any time.</p>
 
 <h2>Data we collect</h2>
 <p><strong>None.</strong> The App does not collect any user data or device data.</p>
@@ -69,14 +70,27 @@ device.</p>
 
 <h2>Information you enter into the App</h2>
 <p>When you set up a game, you may type player names (for example, &ldquo;Alice&rdquo; or
-&ldquo;Player 2&rdquo;). These names are used only to label players on screen during the current
-game session.</p>
+&ldquo;Player 2&rdquo;) and, optionally, what the winner gets to do (for example, &ldquo;pick the
+restaurant&rdquo;).</p>
+<p><strong>Remembered players.</strong> So you don&rsquo;t have to retype your group each time, the
+App saves:</p>
 <ul>
-  <li>They are held only in your device&rsquo;s temporary memory (RAM).</li>
-  <li>They are never written to a database, file, or preferences store by the App.</li>
-  <li>They are never transmitted anywhere.</li>
-  <li>They are discarded when you close the App or start a new game.</li>
+  <li>the game mode and players from your last game, and</li>
+  <li>for each player name, how many games they have played and won, and when they last played
+  (up to 30 names).</li>
 </ul>
+<p>This information:</p>
+<ul>
+  <li>is stored in a private file inside the App&rsquo;s own storage on your device, which other
+  apps cannot read;</li>
+  <li>is excluded from Android cloud backup and device-to-device transfer, so it never leaves your
+  device;</li>
+  <li>is never transmitted anywhere, and we (the Developer) never receive it;</li>
+  <li>can be deleted at any time &mdash; see &ldquo;Your rights&rdquo; below.</li>
+</ul>
+<p><strong>Everything else you type</strong>, including what the winner gets to do, is used only
+for the current game. While a game is in progress, Android may temporarily keep it so the game
+survives the App being paused in the background; it is discarded when you close the App.</p>
 <p>We recommend using nicknames rather than full legal names, as you would with any game.</p>
 
 <h2>Third-party services</h2>
@@ -87,9 +101,8 @@ on your device and do not collect data on our behalf.</p>
 <p>We do not share data with third parties, because we do not have any data to share.</p>
 
 <h2>Android system backup</h2>
-<p>The App uses the Android platform&rsquo;s standard settings. Because the App does not save any
-data to your device, there is nothing meaningful for Android&rsquo;s backup or device-transfer
-features to include. Any use of Android Backup is controlled by your own device and Google
+<p>The App explicitly excludes its remembered players from Android&rsquo;s cloud backup and
+device-transfer features, and saves nothing else for them to include. Any use of Android Backup is controlled by your own device and Google
 account settings, and is governed by
 <a href="https://policies.google.com/privacy">Google&rsquo;s Privacy Policy</a>, not by us.</p>
 
@@ -105,11 +118,14 @@ all.</p>
 access, correct, delete, and port your personal data, and to object to its sale. We hold no
 personal data about you, so there is nothing for us to access, disclose, correct, delete, or sell.
 We do not sell or share personal information under any definition.</p>
-<p>To remove the player names you have typed, simply close the App.</p>
+<p>To delete remembered players and their win records, tap <strong>Forget</strong> under
+&ldquo;Recent Players&rdquo; on the App&rsquo;s setup screen. Clearing the App&rsquo;s storage in
+Android settings, or uninstalling the App, also deletes them.</p>
 
 <h2>Data security</h2>
-<p>Because no data leaves your device and none is stored, there is no data for us to secure,
-transmit, or expose in a breach.</p>
+<p>Because no data leaves your device, there is no data for us to secure, transmit, or expose in
+a breach. Remembered players are kept in the App&rsquo;s private storage, protected by
+Android&rsquo;s app sandbox.</p>
 
 <h2>Purchases</h2>
 <p>The App is free and contains no in-app purchases or subscriptions. We do not process payments
@@ -117,7 +133,7 @@ or handle any financial information.</p>
 
 <h2>Changes to this policy</h2>
 <p>If the App changes in a way that affects privacy &mdash; for example, if a future version adds
-online multiplayer, statistics saving, or advertising &mdash; we will update this policy and change
+online multiplayer, cloud sync, or advertising &mdash; we will update this policy and change
 the &ldquo;Last updated&rdquo; date above before releasing that version. Please review this page
 periodically.</p>
 
